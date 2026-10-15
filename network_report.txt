@@ -1,0 +1,33 @@
+===== NETWORK THREAT LOG ANALYSIS =====
+Records analyzed: 15
+Total bytes recorded: 15480
+
+Connections by protocol:
+TCP: 13
+UDP: 2
+
+Connections by source IP:
+192.168.1.10: 8
+192.168.1.11: 1
+192.168.1.15: 1
+192.168.1.12: 1
+192.168.1.13: 1
+192.168.1.14: 1
+192.168.1.16: 1
+192.168.1.17: 1
+
+Connections by destination IP:
+203.0.113.20: 7
+192.168.1.1: 6
+198.51.100.25: 2
+
+Connection status counts:
+SUCCESS: 13
+FAILED: 2
+
+Review threshold: 5 connections per source IP
+Source IPs flagged for review:
+REVIEW: 192.168.1.10 had 8 connections
+
+Note: A high connection count is not proof of malicious activity.
+Investigate flagged records using additional evidence.
